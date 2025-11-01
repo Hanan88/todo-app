@@ -1,0 +1,17 @@
+export const verticalPaddingClasses = {
+    none: 'py-0',
+    xs: 'py-0.5',
+    sm: 'py-1',
+    md: 'py-2',
+    lg: 'py-3',
+    xl: 'py-4',
+    '2xl': 'py-5',
+    '3xl': 'py-6',
+    '4xl': 'py-7',
+    '5xl': 'py-8',
+    '6xl': 'py-9',
+    '7xl': 'py-10',
+    '8xl': 'py-12',
+    '9xl': 'py-14',
+    '10xl': 'py-16',
+};

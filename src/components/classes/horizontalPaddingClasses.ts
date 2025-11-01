@@ -1,0 +1,17 @@
+export const horizontalPaddingClasses = {
+    none: 'px-0',
+    xs: 'px-0.5',
+    sm: 'px-1',
+    md: 'px-2',
+    lg: 'px-3',
+    xl: 'px-4',
+    '2xl': 'px-5',
+    '3xl': 'px-6',
+    '4xl': 'px-7',
+    '5xl': 'px-8',
+    '6xl': 'px-9',
+    '7xl': 'px-10',
+    '8xl': 'px-12',
+    '9xl': 'px-14',
+    '10xl': 'px-16',
+};

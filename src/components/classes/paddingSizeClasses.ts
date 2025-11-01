@@ -1,0 +1,17 @@
+export const paddingSizeClasses = {
+    none: 'p-0',
+    xs: 'p-1',
+    sm: 'p-2',
+    md: 'p-3',
+    lg: 'p-4',
+    xl: 'p-5',
+    '2xl': 'p-6',
+    '3xl': 'p-7',
+    '4xl': 'p-8',
+    '5xl': 'p-9',
+    '6xl': 'p-10',
+    '7xl': 'p-12',
+    '8xl': 'p-14',
+    '9xl': 'p-16',
+    '10xl': 'p-18',
+};
