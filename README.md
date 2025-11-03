@@ -7,7 +7,7 @@ This app allows users to manage tasks across four columns: **Backlog**, **In Pro
 
 ## 🚀 Live Demo
 
-🔗 **Deployed App:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+🔗 **Deployed App:** [https://todo-app-two-smoky-57.vercel.app/](https://todo-app-two-smoky-57.vercel.app/)
 
 🔗 **GitHub Repository:** [https://github.com/Hanan88/todo-app](https://github.com/Hanan88/todo-app)
 
@@ -48,3 +48,23 @@ This app allows users to manage tasks across four columns: **Backlog**, **In Pro
 ```bash
 git clone https://github.com/Hanan88/todo-app.git
 cd todo-app
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run JSON Server (Mock API)
+```bash
+npx json-server --watch db.json --port 5000
+```
+🔗 **API will run at:** 👉 http://localhost:5000/tasks
+
+### 4️⃣ Run the Development Server
+```bash
+npm run dev
+```
+🔗 **App will run at:** 👉 http://localhost:3000
+
+---
