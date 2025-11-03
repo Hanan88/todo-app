@@ -1,5 +1,5 @@
-import { getListTasksMetadata } from '@/app/features/tasks/meta/getListTasksMetadata';
-import ListTasksPage from '@/app/features/tasks/pages/ListTasksPage';
+import { getListTasksMetadata } from '@/features/tasks/meta/getListTasksMetadata';
+import ListTasksPage from '@/features/tasks/pages/ListTasksPage';
 import type { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {

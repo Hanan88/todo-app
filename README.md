@@ -9,7 +9,7 @@ This app allows users to manage tasks across four columns: **Backlog**, **In Pro
 
 🔗 **Deployed App:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
 
-🔗 **GitHub Repository:** [https://github.com/your-username/todo-app](https://github.com/your-username/todo-app)
+🔗 **GitHub Repository:** [https://github.com/Hanan88/todo-app](https://github.com/Hanan88/todo-app)
 
 ---
 
@@ -46,5 +46,5 @@ This app allows users to manage tasks across four columns: **Backlog**, **In Pro
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/Hanan88/todo-app.git
 cd todo-app
