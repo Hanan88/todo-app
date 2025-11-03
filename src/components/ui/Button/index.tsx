@@ -15,6 +15,7 @@ type ButtonProps = {
   type?: ButtonType;
   variant?: Variant;
   color?: Color;
+  background?: Color;
   size?: Size;
   isDisabled?: boolean;
 };
@@ -25,21 +26,23 @@ export default function Button({
   type = "button",
   variant = "filled",
   color = "primary",
+  background = "primary",
   size = "auto",
   isDisabled = false,
 }: ButtonProps) {
   const baseStyles =
-    "rounded-xl font-medium transition-all focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed";
+    "rounded-xl px-4 py-2 font-medium transition-all focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed";
 
   return (
     <button
       type={type}
       onClick={onClick}
       disabled={isDisabled}
-      className={clsx(baseStyles, 
-        variantClasses[variant], 
-        sizeClasses[size], 
-        backgroundColorClasses[color], 
+      className={clsx(
+        baseStyles,
+        variantClasses[variant],
+        sizeClasses[size],
+        background !== "none" ? backgroundColorClasses[background] : backgroundColorClasses[color],
         textColorClasses[color],
         isDisabled && "opacity-50 cursor-not-allowed"
       )}

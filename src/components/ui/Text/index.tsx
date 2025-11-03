@@ -26,7 +26,7 @@ type TextProps = {
 export default function Text({
     children,
     as: Component = "p",
-    size= "md",
+    size = "md",
     weight = "normal",
     color = "primary",
     align = "start",
@@ -34,6 +34,9 @@ export default function Text({
     underline = false,
     className = "",
 }: TextProps) {
+    // ----------------------------------------------------------------------------------------------------
+    // MARK: Main Component UI
+    // ----------------------------------------------------------------------------------------------------
     return (
         <Component
             className={clsx(

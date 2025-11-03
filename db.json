@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": "9b4s",
+      "title": "Learn React 222",
+      "description": "Finish React basics course updated",
+      "status": "in progress"
+    },
+    {
+      "id": "sb4b",
+      "title": "Build Dashboard",
+      "description": "Create UI components and connect with API",
+      "status": "backlog"
+    },
+    {
+      "id": "9b4wb",
+      "title": "Test Application",
+      "description": "Test the application to ensure it is correctly",
+      "status": "review"
+    },
+    {
+      "id": "s9b4b",
+      "title": "Improve Performance",
+      "description": "Improve the performance the application",
+      "status": "review"
+    },
+    {
+      "id": "b4b9s",
+      "title": "Deploy Application",
+      "description": "Deploy the application to production server",
+      "status": "done"
+    },
+    {
+      "id": "b9s4b",
+      "title": "Write Documentation",
+      "description": "Write comprehensive documentation for the project",
+      "status": "in progress"
+    },
+    {
+      "id": "4b9sb",
+      "title": "Fix Bugs",
+      "description": "Identify and fix bugs reported by users",
+      "status": "review"
+    },
+    {
+      "id": "4bs9b",
+      "title": "Conduct Code Review",
+      "description": "Review code for quality and standards",
+      "status": "review"
+    },
+    {
+      "id": "s4b9b",
+      "title": "Optimize Database",
+      "description": "Optimize database queries for better performance",
+      "status": "in progress"
+    },
+    {
+      "id": "9sb4b",
+      "title": "Set Up CI/CD Pipeline",
+      "description": "Implement continuous integration and deployment",
+      "status": "review"
+    },
+    {
+      "id": "b4s9b",
+      "title": "Research New Technologies",
+      "description": "Explore new technologies to integrate into the project",
+      "status": "in progress"
+    }
+  ]
+}
